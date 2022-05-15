@@ -1,5 +1,3 @@
--- rxze#4769
-
 -- Turn off all vehicles
 local scenarios = {
     'WORLD_VEHICLE_ATTRACTOR',
