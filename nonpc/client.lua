@@ -91,3 +91,11 @@ local scenarios = {
     SetPedDensityMultiplierThisFrame(0.0)
     SetScenarioPedDensityMultiplierThisFrame(0.0, 0.0)
   end
+
+
+Citizen.CreateThread(function() 
+  while true do
+    N_0xf4f2c0d4ee209e20() 
+    Wait(1000)
+  end 
+end)
